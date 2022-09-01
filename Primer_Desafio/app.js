@@ -20,8 +20,6 @@ for( let i = 0; i < alumnos; i++){
 
         total = total + calificacion
         promedio = total/notas;
-
-        
     }
     
     console.log(`Su promedio es: ${promedio}`)
@@ -32,3 +30,4 @@ for( let i = 0; i < alumnos; i++){
         alert(`El alumno${nombre} no esta aprobado`)
     }
 }
+
